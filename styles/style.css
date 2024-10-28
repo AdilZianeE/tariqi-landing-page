@@ -86,9 +86,9 @@ img {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* --- Layout Spécifique --- */
+/* ----------------------------------------- Layout Spécifique ----------------------------------------------------------------------------------------------- */
 .header, .footer {
-    background-color: #2B613F;
+    background-color: #e9efeb;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
