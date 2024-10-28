@@ -38,12 +38,12 @@ p, li {
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px; /* Augmentation du padding latéral */
+    padding: 20px; /* Augmentation du padding pour plus d'espace */
 }
 
 .section {
-    padding: 8rem 25px; /* Espacement amélioré : haut/bas 8rem, latéral 25px */
-    margin: 4rem 0; /* Margin haut/bas doublé à 4rem */
+    padding: 4rem 20px; /* Espacement amélioré pour la section */
+    margin: 2rem 0;
     background: #ffffff; /* Fond blanc pour les sections */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -98,8 +98,8 @@ img {
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    padding: 20px; /* Peut être ajusté selon tes préférences */
-    margin: 20px 0; /* Margin inchangé */
+    padding: 20px;
+    margin: 20px 0;
     transition: box-shadow 0.3s;
 }
 
