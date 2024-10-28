@@ -1,76 +1,89 @@
 /* --- Général --- */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #e7f6f0;
-    color: #000000;
+    background-color: #f5f5f5; /* Une couleur de fond plus neutre */
+    color: #333; /* Couleur de texte plus douce pour les yeux */
     margin: 0;
     padding: 0;
 }
 
 /* --- Titres et Textes --- */
-h1, h2, h3 {
+h1 {
+    font-weight: 700;
+    font-size: 36px; /* Taille augmentée pour le titre principal */
+    margin: 30px 0;
+    text-align: center;
+}
+
+h2 {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 28px; /* Taille pour les sous-titres */
     margin: 20px 0;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 22px; /* Titre de niveau 3 */
+    margin: 15px 0;
 }
 
 p, li {
     font-weight: 400;
-    font-size: 14px;
-    line-height: 1.6;
-}
-
-.asterisk {
-    font-weight: 400;
-    font-size: 12px;
+    font-size: 16px; /* Taille de texte légèrement augmentée */
+    line-height: 1.7;
+    margin: 10px 0;
 }
 
 /* --- Dispositions et Layout --- */
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 20px; /* Augmentation du padding pour plus d'espace */
 }
 
 .section {
-    padding: 3rem 10px;
-    margin: 5rem 10px;
+    padding: 4rem 20px; /* Espacement amélioré pour la section */
+    margin: 2rem 0;
+    background: #ffffff; /* Fond blanc pour les sections */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Boutons et Liens --- */
 .button {
-    background: linear-gradient(to bottom left, #e7f6f0, #89a78d);
-    color: #000000;
+    background-color: #2B613F; /* Couleur de fond solide */
+    color: #ffffff;
     border: none;
-    border-radius: 30px;
-    padding: 12px 24px;
+    border-radius: 25px; /* Coins arrondis plus doux */
+    padding: 10px 20px;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
     cursor: pointer;
-    box-shadow: 1px 1px 5px 1px rgba(43, 97, 63, 0.7);
-    transition: transform 0.3s ease;
+    transition: background-color 0.3s, transform 0.3s;
 }
 
 .button:hover {
-    transform: scale(1.05);
+    background-color: #3C7A5E; /* Changement de couleur au survol */
+    transform: translateY(-2px); /* Légère élévation au survol */
 }
 
 a {
     text-decoration: none;
-    color: #000000;
+    color: #2B613F; /* Couleur des liens en harmonie avec le bouton */
 }
 
 /* --- Images et Logos --- */
 .logo {
     width: 150px;
     height: auto;
+    margin-bottom: 20px; /* Espacement en bas du logo */
 }
 
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 15px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* --- Layout Spécifique --- */
@@ -83,12 +96,13 @@ img {
 
 .card {
     background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    transition: box-shadow 0.3s;
 }
 
 .card:hover {
-    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Légère élévation au survol */
 }
