@@ -1,6 +1,94 @@
+/* --- Général --- */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7f6f0;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+/* --- Titres et Textes --- */
+h1, h2, h3 {
+    font-weight: 600;
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+p, li {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.asterisk {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* --- Dispositions et Layout --- */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 10px;
+}
+
+.section {
+    padding: 3rem 10px;
+    margin: 5rem 10px;
+}
+
+/* --- Boutons et Liens --- */
+.button {
+    background: linear-gradient(to bottom left, #e7f6f0, #89a78d);
+    color: #000000;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 1px rgba(43, 97, 63, 0.7);
+    transition: transform 0.3s ease;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* --- Images et Logos --- */
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Layout Spécifique --- */
+.header, .footer {
+    background-color: #2B613F;
+    color: #ffffff;
+    padding: 20px 0;
     text-align: center;
-    padding: 50px;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.card:hover {
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.15);
 }
