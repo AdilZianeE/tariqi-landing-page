@@ -11,20 +11,20 @@ body {
 h1 {
     font-weight: 700;
     font-size: 36px; /* Taille augmentée pour le titre principal */
-    margin: 30px 0;
+    margin: 15px 0;
     text-align: center;
 }
 
 h2 {
     font-weight: 600;
     font-size: 28px; /* Taille pour les sous-titres */
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 h3 {
     font-weight: 500;
     font-size: 22px; /* Titre de niveau 3 */
-    margin: 15px 0;
+    margin: 5px 0;
 }
 
 p, li {
@@ -42,7 +42,7 @@ p, li {
 }
 
 .section {
-    padding: 4rem 20px; /* Espacement amélioré pour la section */
+    padding: 2rem 20px; /* Espacement amélioré pour la section */
     margin: 2rem 0;
     background: #ffffff; /* Fond blanc pour les sections */
     border-radius: 10px;
